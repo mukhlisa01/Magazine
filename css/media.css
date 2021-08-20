@@ -1,0 +1,427 @@
+/* FIRST PAGE */
+@media (max-width:1200px) {
+    .container{
+        max-width: 991px;
+    }
+    
+    .search{
+        left: 19%;
+    }
+    
+    .search .light{
+        padding-left: 0;
+    }
+    
+    .main-articles{
+        justify-content: space-evenly;
+    }
+    
+    .main-articles .artcl{
+        padding: 0 10px;
+    }
+    
+    .topics .container .right{
+        height: 700px;
+    }
+    
+    .topics .container .left-top .car-about-txt .car-title a{
+        margin: 10px 0 !important;
+    }
+    
+    .topics .container .left-top {
+        flex-wrap: wrap;
+    }
+    
+    .topics .container .left-btm{
+        flex-wrap: wrap;
+    }
+    
+    .topics .container .right .columns .quote {
+        padding: 10px 23px 0;
+    }
+    .topics .container .right .columns a {
+        padding: 20px 83px 0 !important;
+    }
+    .gallery .container .careers .job-interview{
+        margin-right: 0 !important;
+        padding: 20px 0px 0px 23px;
+    }
+    
+}
+
+/* ******************** */
+@media (max-width:1020px) {
+    .container{
+        max-width: 767px;
+    }
+    .search {
+        left: 25%;
+    }
+    .header-btm .statue{
+        flex-wrap: wrap;
+    }
+    .header-title h1 a{
+        margin: 0 10px !important;
+        font-size: 30px;
+    }
+    .main-articles .artcl{
+        margin-bottom: 15px;
+    }
+    .gallery .container .hot-title{
+        font-size: 28px;
+        line-height: 37px;
+        margin: 20px 0 !important;
+    }
+    .gallery .container .hot-content .indicators{
+        margin: 50px auto 0;
+    }
+    .gen-link{
+        padding: 5px 20px;
+    }
+    .contact-icons{
+        display: flex;
+    }
+    .contact-links{
+        display: flex;
+    }
+    .footer .container .footer-bottom .left {
+        margin-right: 20px !important;
+    }
+}
+
+/* *************** */
+@media (max-width:800px) {
+    .container{
+        max-width: 576px;
+    }
+    body{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .header-btm .container{
+        flex-wrap: wrap;
+    }
+    .navbar::before{
+        left: 155px;
+    }
+    .navbar-light .navbar-toggler h5 {
+        padding-left: 10px !important;
+    }
+    .search {
+        left: 30%;
+    }
+    .header-right .subscr a h6{
+        font-size: 13px;
+    }
+    .main-articles{
+        padding: 25px 0 8px;
+    }
+    .trip{
+        top: 60%;
+    }
+    .trip .container .recommend .recom-title{
+        font-size: 13px;
+    }
+    .trip .recommend .for-u{
+        padding: 15px;
+    }
+    .trip .travel{
+        padding: 20px;
+    }
+    .trip .travel .destinations .trip-title{
+        padding: 25px 0 !important;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .trip .travel .destinations .trip-links {
+        flex-wrap: wrap;
+    }
+    .trip .travel .destinations .trip-links .play{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .trip .travel .destinations .trip-links .play i{
+        font-size: 40px;
+    }
+    .topics .container .left-top .car-about {
+        padding: 20px 0 0 20px;
+        flex-wrap: wrap;
+    }
+    .topics .container .left-top .car .car-bottom{
+        padding: 13px 10px;
+    }
+    .topics .container .right {
+        height: 566px;
+    }
+    .topics .container .right .columns .quote {
+        padding: 10px 10px 0;
+    }
+    .topics .container .right .columns .clmn-title {
+        padding: 13px 15px !important;
+    }
+    .topics .container .right .columns .quote-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .topics .container .right .columns .quote-author{
+        padding: 10px 0 15px;
+    }
+    .card-gen{
+        margin: 0 8px 30px 0;
+    }
+    .topics .container .left-btm .cat-title a{
+        padding: 10px 20px !important;
+        font-size: 14px;
+    }
+    .topic-card{
+        height: 130px;
+        padding: 20px 17px 0px
+    }
+    .flower{
+        margin: 30px 0 40px;
+    }
+    .flower-title{
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .news .container{
+        flex-wrap: wrap;
+    }
+    .news .container .news-marked{
+        padding: 0 17px;
+        margin-bottom: 15px;
+    }
+    .news .container .news-marked-card{
+        flex-wrap: wrap;
+    }
+    .news-img{
+        margin-bottom: 10px;
+    }
+    .news .container .news-marked-card .news-content{
+        margin: 0 0 5px 0;
+    }
+    .news .container .news-marked-card .news-content .news-title a{
+        font-size: 16px;
+        padding: 0 0 5px 0 !important;
+    }
+    .footer .container .subscribe {
+        padding: 30px 0;
+    }
+    .footer .container .subscribe-title{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .footer .container .footer-menu{
+        padding: 30px 0 35px;
+    }
+    .footer .container .footer-menu-info .menu-title{
+        padding-bottom: 16px !important;
+    }
+    .footer .container .contact{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .contact-links{
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footer .container .footer-bottom{
+        padding: 30px 0;
+    }
+}
+
+
+/* ***************** */
+@media (max-width:576px) {
+    .search {
+        left: 66%;
+        margin-bottom: 20px;
+    }
+    .navbar::before{
+        left: 50%;
+    }
+    .main{
+        margin-bottom: 720px;
+    }
+    .trip {
+        top: 64%;
+    }
+    .trip .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .trip .travel{
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .topics .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery .container .careers .job-interview-info .job-link{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .flower-title {
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .topics .container .left-top,
+    .topics .container .left-btm,
+    .topics .container .left-btm-cards{
+        justify-content: center;
+    }
+    
+    .footer .container .subscribe-title{
+        font-size: 24px;
+    }
+    .footer .container .subscribe input{
+        margin-bottom: 10px;
+    }
+    .footer .container .footer-menu{
+        flex-wrap: wrap;
+    }
+    .footer .container .footer-menu-info{
+        margin-right: 15px;
+    }
+}
+
+
+/* SECOND PAGE */
+@media (max-width:1020px) {
+    .container{
+        max-width: 767px;
+    }
+    .main-top{
+        padding: 0;
+    }
+    .main-content-info .main-title a{
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .main-bottom{
+        padding: 56px 0 40px;
+    }
+    .main-content-info .main-subt{
+        margin: 30px 0 35px !important;
+    }
+    .travel-story .small-container .story-txt {
+        font-size: 16px;
+        line-height: 27px;
+        margin: 20px 0 !important;
+    }
+    .travel-story .small-container .travel-quote .quote-txt{
+        font-size: 20px;
+    }
+    .travel-story {
+        padding: 40px 0 40px;
+    }
+    .travel-photos{
+        padding: 40px 50px;
+    }
+    .travel-item{
+        margin: 15px 0;
+    }
+    .travel-story .container .carousel-item {
+        height: 370px;
+    }
+    .travel-photos .container .travel-item .item-title{
+        font-size: 15px;
+        margin: 10px 0 !important;
+    }
+    .comments {
+        padding: 50px 0 30px;
+    }
+}
+
+/* *************** */
+@media (max-width:800px) {
+    .container{
+        max-width: 576px;
+    }
+    .small-container{
+        max-width: 576px;
+        padding: 0 15px;
+    }
+    .main-bottom {
+        padding: 56px 20px 40px;
+    }
+    .main-content .mira{
+        height: 316px;
+        bottom: -72%;
+    }
+    .main-content .mira img {
+        margin: 23px 0 15px;
+    }
+    .main-content .mira-icons {
+        margin: 15px 0 15px;
+    }
+    .main-content-info{
+        margin: 20px 0 60px;
+    }
+    .main-content-info .main-title a {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .travel-story {
+        padding: 260px 0 40px;
+    }
+    .travel-story .container .carousel-info{
+        padding: 15px 12px;
+    }
+    .travel-story .container .carousel-info::after{
+        right: 30%;
+    }
+    .travel-story .small-container .giraffe{
+        flex-wrap: wrap;
+    }
+    .travel-story .small-container .giraffe-img{
+        margin-top: 20px;
+    }
+    .travel-story .small-container .giraffe-img img {
+        margin: 10px 0 10px;
+    }
+    .travel-story .small-container .giraffe-img .theme-subt a{
+        margin-bottom: 10px;
+    }
+    .travel-story .small-container .travel-quote{
+        margin-top: 0;
+    }
+    .comments {
+        padding: 25px 0 30px;
+    }
+    .comments-title{
+        font-size: 30px;
+    }
+    .comments .com-container .comment-item-content .comment-text {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 10px 0 10px !important;
+    }
+    .comments .small-container .submit-com{
+        flex-wrap: wrap;
+    }
+    .travel-main{
+        margin-bottom: 0 !important;
+    }
+    .travel-photos{
+        padding: 0;
+    }
+}
+
+/* ************** */
+@media (max-width:576px) {
+    .main-content-info .main-title a {
+        font-size: 33px;
+        line-height: 42px;
+    }
+    .travel-story .container .carousel-info::after {
+        right: 39%;
+    }
+    .comments .small-container .submit-com .submit-txt textarea{
+        width: 300px;
+    }
+    .travel-story .small-container .story-btns button{
+        margin: 0 10px 14px 0;
+    }
+}
